@@ -1,0 +1,33 @@
+{
+  "name": "webpacknode",
+  "version": "1.0.0",
+  "description": "webapck+express+bootstrap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hotnode www/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maoruibin001/webpackNode.git"
+  },
+  "keywords": [
+    "webpack",
+    "node"
+  ],
+  "author": "maoruibin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maoruibin001/webpackNode/issues"
+  },
+  "homepage": "https://github.com/maoruibin001/webpackNode#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "webpack": "^2.6.1",
+    "jade": "^1.11.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.10.4"
+  }
+}
